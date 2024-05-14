@@ -7,6 +7,10 @@ android {
     namespace = "com.example.a34b_splashandbuttonnavigation"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.a34b_splashandbuttonnavigation"
         minSdk = 28
